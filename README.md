@@ -370,9 +370,9 @@ GET /instructors/31/statistics
 ├─────────────────────────────────────────┤
 │         Business Logic (Services)       │
 ├─────────────────────────────────────────┤
-│    Search Engine Layer (Sphinx 2.2.11) │
+│    Search Engine Layer (Sphinx 2.2.11)  │
 ├─────────────────────────────────────────┤
-│      Cache Layer (Redis v7.0.15)       │
+│      Cache Layer (Redis v7.0.15)        │
 ├─────────────────────────────────────────┤
 │     Database Layer (MariaDB + Views)    │
 └─────────────────────────────────────────┘
