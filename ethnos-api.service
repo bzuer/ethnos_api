@@ -1,6 +1,6 @@
 [Unit]
 Description=Ethnos Academic API Service
-Documentation=https://github.com/ethnos-app/api
+Documentation=https://github.com/bzuer/ethnos_app_api
 After=network.target mysql.service redis.service sphinxsearch.service
 Wants=mysql.service redis.service sphinxsearch.service
 StartLimitIntervalSec=0
