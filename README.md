@@ -1,5 +1,7 @@
 # Ethnos_API - Academic Bibliography API v2.0.0
 
+[![DOI](https://zenodo.org/badge/1049971688.svg)](https://doi.org/10.5281/zenodo.17049435)
+
 Public RESTful API for academic bibliographic research with high-performance search capabilities, comprehensive researcher profiles, institutional analytics, and advanced bibliometric analysis.
 
 ## System Status
