@@ -173,7 +173,6 @@ There are no financial conflicts of interest to declare. The project maintains c
 - **Project**: Ethnos.app Academic Bibliography System
 - **Website**: [https://ethnos.app](https://ethnos.app)
 
-
+**Last Updated**: 2025-09-03
 
 [![DOI](https://zenodo.org/badge/1049971688.svg)](https://doi.org/10.5281/zenodo.17049435)
-**Last Updated**: 2025-09-03
