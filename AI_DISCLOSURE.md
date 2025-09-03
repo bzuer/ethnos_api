@@ -4,7 +4,7 @@
 
 - **Project**: Ethnos.app Academic Bibliographic API
 - **Version**: 2.0.0
-- **Declaration Date**: 2025-09-02
+- **Declaration Date**: 2025-09-03
 - **Purpose**: This document provides full transparency regarding the integration of AI-powered tools as assistive components within the software development lifecycle (SDLC). It establishes clear ethical guidelines and affirms ultimate human accountability for all aspects of the project.
 
 ## 2. Guiding Principles
@@ -173,4 +173,7 @@ There are no financial conflicts of interest to declare. The project maintains c
 - **Project**: Ethnos.app Academic Bibliography System
 - **Website**: [https://ethnos.app](https://ethnos.app)
 
-**Last Updated**: 2025-09-02
+
+
+[![DOI](https://zenodo.org/badge/1049971688.svg)](https://doi.org/10.5281/zenodo.17049435)
+**Last Updated**: 2025-09-03
