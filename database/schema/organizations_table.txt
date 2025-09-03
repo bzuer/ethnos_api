@@ -1,0 +1,10 @@
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+name	varchar(512)	NO	MUL	NULL	
+type	enum('UNIVERSITY','INSTITUTE','PUBLISHER','FUNDER','COMPANY','OTHER')	NO	MUL	NULL	
+country_code	char(2)	YES	MUL	NULL	
+city	varchar(100)	YES		NULL	
+ror_id	varchar(20)	YES	MUL	NULL	
+created_at	timestamp	YES		current_timestamp()	
+updated_at	timestamp	YES		current_timestamp()	on update current_timestamp()
+nome_padronizado	varchar(255)	YES		NULL	

@@ -1,0 +1,7 @@
+view_name	table_comment
+v_annual_stats	VIEW
+v_collaborations	VIEW
+v_institution_productivity	VIEW
+v_person_production	VIEW
+v_venue_ranking	VIEW
+v_works_by_signature	VIEW

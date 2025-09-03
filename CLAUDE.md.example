@@ -1,0 +1,198 @@
+# CLAUDE.md - Project Log Template
+
+## STATUS: [CURRENT PROJECT PHASE]
+
+**Updated**: YYYY-MM-DD  
+**Session**: [Brief Description of Current Work]
+
+### CURRENT SESSION WORK COMPLETED
+
+#### 1. [PRIMARY WORK CATEGORY]
+
+**[Work Category Description]**:
+- **[Specific Task 1]**: [Detailed description with file paths and technical specifics]
+- **[Specific Task 2]**: [Implementation details, performance metrics, or resolution steps]
+- **[Specific Task 3]**: [Configuration changes, security improvements, or feature additions]
+
+**[Subcategory Title]**:
+- **[Technical Detail]**: [Specific implementation with file references]
+- **[Configuration Change]**: [Settings modified, security enhancements]
+- **[Performance Metric]**: [Quantified improvements or validation results]
+
+**[Implementation Results]**:
+- **[File Category]**: [Files modified, lines changed, patterns implemented]
+- **[Security Enhancement]**: [Vulnerability addressed, protection implemented]
+- **[Performance Improvement]**: [Metrics before/after, response times, throughput]
+
+#### 2. [SECONDARY WORK CATEGORY]
+
+**[Category Description]**:
+- **[Task Description]**: [Technical implementation details]
+- **[File Modifications]**: [Specific files changed, lines modified]
+- **[Validation Results]**: [Testing performed, functionality confirmed]
+
+**Code Examples (if applicable)**:
+```javascript
+// OLD implementation:
+{example: 'old code pattern', status: 'deprecated'}
+
+// NEW implementation:
+{example: 'new code pattern', status: 'optimized'}
+```
+
+#### 3. [ADDITIONAL WORK CATEGORIES]
+
+Follow same pattern for additional work completed in current session.
+
+### PREVIOUS SESSION WORK COMPLETED
+
+#### [HISTORICAL SESSION TITLE]
+
+**[Session Description]**:
+- **[Major Feature]**: [Implementation summary]
+- **[Technical Achievement]**: [Performance or functionality improvement]
+- **[System Enhancement]**: [Infrastructure or security improvement]
+
+### OPERATIONAL INFRASTRUCTURE
+
+**Database & Cache**:
+- [Database Type]: [Connection details, record counts, operational status]
+- [Cache System]: [Version, port, operational status]
+- [Additional Services]: [Search engines, monitoring systems]
+
+**Server Management**:
+```bash
+[server-script] - [Description of management capabilities]
+  - [function1](): [Purpose and functionality]
+  - [function2](): [Purpose and functionality]
+  - [monitoring_feature]: [Status and performance tracking]
+```
+
+**Active Monitoring Stack**:
+- [Monitoring Component]: [Purpose and functionality]
+- [Logging System]: [Configuration and rotation policy]
+- [Performance Tracking]: [Metrics collected and thresholds]
+- [Error Handling]: [Classification and reporting system]
+
+### PRODUCTION CAPABILITIES
+
+**Core Features**:
+- [Feature Category]: [Endpoint count, performance metrics]
+- [System Component]: [Integration status, performance data]
+- [Infrastructure Component]: [Operational status, capacity metrics]
+- [Monitoring System]: [Coverage percentage, alert configuration]
+
+**Data Environment**:
+- [Data Category]: [Record counts, operational status]
+- [Search System]: [Implementation status, performance metrics]
+- [Database Views]: [Custom views implemented]
+- [Index Strategy]: [Primary and backup systems]
+
+### AI AGENT CONTEXT
+
+**System Status**:
+- [Status Category]: [Implementation phase and completion status]
+- [System State]: [Operational readiness and stability metrics]
+- [Quality Metrics]: [Code coverage, validation results]
+- [Documentation State]: [Completeness and maintenance status]
+
+**For Future Sessions**:
+- **[System Component]**: [Current implementation status and next steps]
+- **[Performance Area]**: [Current metrics and optimization opportunities]
+- **[Infrastructure Component]**: [Readiness status and deployment requirements]
+- **[Development Process]**: [Standards established and workflow optimization]
+- **[Quality Assurance]**: [Current coverage and improvement areas]
+
+**Development Commands**:
+```bash
+[command1]                           # [Purpose and usage context]
+[command2]                           # [Purpose and usage context]
+[command3]                           # [Purpose and usage context]
+```
+
+**Performance Metrics**:
+- [System Component]: [Response times, throughput metrics]
+- [Comparison Baseline]: [Previous performance for context]
+- [Improvement Factor]: [Quantified performance gains]
+- [Capacity Planning]: [Scalability and resource utilization]
+
+**Log Files**:
+- [log-type]-YYYY-MM-DD.log - [Purpose and content description]
+- [system-logs] - [Location and rotation policy]
+
+## EXECUTIVE SUMMARY
+
+**Latest Session Work**:
+- **[Primary Achievement]**: [Concise description of main work completed]
+- **[Secondary Achievement]**: [Additional significant work accomplished]
+- **[Technical Improvement]**: [Performance, security, or quality enhancement]
+- **[Infrastructure Enhancement]**: [System reliability or capability improvement]
+
+**[System Category] Improvements**:
+- **[Improvement Category]**: [Specific enhancements implemented]
+- **[Quality Enhancement]**: [Code quality, documentation, or process improvement]
+- **[Security Enhancement]**: [Vulnerability mitigation or protection implementation]
+- **[Performance Optimization]**: [Speed, efficiency, or scalability improvement]
+
+**Previous Session Work**:
+- **[Historical Achievement]**: [Summary of previous significant work]
+- **[System Enhancement]**: [Infrastructure or capability improvement from previous sessions]
+
+**Current State**:
+[Comprehensive description of current system status, operational capabilities, security posture, performance characteristics, and readiness for production deployment. Include quantified metrics, operational status, and future readiness.]
+
+#### COMPLETE SYSTEM STATUS - [CURRENT SYSTEM STATE]
+
+**[Status Category]**:
+- **[System Component]**: [Detailed operational status and metrics]
+- **[Security Posture]**: [Vulnerability status, protection measures implemented]
+- **[Performance Status]**: [Current performance metrics and optimization level]
+- **[Infrastructure Status]**: [System readiness and operational capability]
+
+**[Quality Standards Category]**:
+- **[Code Quality]**: [Standards implemented and compliance metrics]
+- **[Documentation Standards]**: [Completeness and professional formatting status]
+- **[Process Standards]**: [Development workflow and quality assurance implementation]
+- **[Technical Standards]**: [Language, formatting, and professional compliance]
+
+**[Operational Capability Category]**:
+- **[System Functionality]**: [Operational endpoints, performance metrics]
+- **[Integration Status]**: [Component integration and operational status]
+- **[Monitoring Capability]**: [System observability and alerting implementation]
+- **[Deployment Readiness]**: [Production readiness and infrastructure status]
+
+**[Development Standards Category]**:
+- **[Coding Standards]**: [Comment policies, formatting standards implemented]
+- **[Language Standards]**: [Professional technical language compliance]
+- **[Security Practices]**: [Credential management, SSL validation, protection measures]
+- **[Quality Practices]**: [Code cleanliness, professional formatting compliance]
+
+**STATUS: [CURRENT OVERALL SYSTEM STATUS WITH KEY OPERATIONAL CHARACTERISTICS]**
+
+---
+
+## USAGE INSTRUCTIONS
+
+This template provides the structure for maintaining comprehensive project logs that serve as:
+
+1. **Historical Record**: Complete documentation of work completed, decisions made, and technical implementations
+2. **Context Preservation**: Essential information for AI agents and team members joining the project
+3. **Status Tracking**: Current operational status, performance metrics, and system capabilities
+4. **Technical Reference**: Specific file locations, performance data, and implementation details
+5. **Future Planning**: Context for upcoming work, optimization opportunities, and system evolution
+
+### Key Principles:
+
+- **Technical Focus**: Maintain professional, technical language throughout
+- **Quantified Results**: Include specific metrics, file paths, and measurable outcomes
+- **Security Awareness**: Document security improvements, vulnerability status, and protection measures
+- **Performance Tracking**: Record response times, throughput, and system capacity metrics
+- **Operational Readiness**: Maintain clear status of system deployment readiness and capabilities
+
+### Maintenance:
+
+- Update status and session information for each major work session
+- Preserve historical context while keeping current session work prominent
+- Include specific technical details that enable future team members to understand implementation decisions
+- Maintain executive summary that provides high-level view of current system state
+- Document operational capabilities, performance characteristics, and deployment readiness
