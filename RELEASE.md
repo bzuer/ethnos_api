@@ -2,9 +2,9 @@
 
 **Release Date**: September 2025  
 **Status**: Production Ready  
-**DOI**: 
-**TEMP_DOI**: 10.5281/zenodo.17041680 
-**License**: Academic Research Platform
+**DOI**: 10.5281/zenodo.17049435  
+**TEMP_DOI**: 10.5281/zenodo.17041680  
+**License**: MIT - Academic Research Platform
 
 ## Overview
 
@@ -175,7 +175,7 @@ To cite this API in academic work:
 **APA Style:**
 ```
 Cruz, B. C. C. (2025). Ethnos.app Academic Bibliography API (Version 2.0.0) [Software]. 
-https://doi.org/{}
+https://doi.org/10.5281/zenodo.17049435
 ```
 
 **BibTeX:**
@@ -185,7 +185,7 @@ https://doi.org/{}
   title = {Ethnos.app Academic Bibliography API},
   version = {2.0.0},
   year = {2025},
-  doi = {},
+  doi = {10.5281/zenodo.17049435},
   url = {https://ethnos.app}
 }
 ```
@@ -194,5 +194,5 @@ https://doi.org/{}
 
 **Contact**: Technical documentation and integration support available through the Ethnos.app platform  
 **Repository**: Production deployment with comprehensive monitoring and logging  
-**DOI**: https://doi.org/10.5281/zenodo.17041680  
+**DOI**: [10.5281/zenodo.17049435](https://doi.org/10.5281/zenodo.17049435)
 **Status**: Enterprise-ready academic research infrastructure
