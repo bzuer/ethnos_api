@@ -60,13 +60,30 @@ const pool = mysql.createPool({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME || 'data_db',
   waitForConnections: true,
-  connectionLimit: 10,
+  connectionLimit: 5,
   queueLimit: 0,
+  acquireTimeout: 30000,
+  timeout: 10000,
+  idleTimeout: 300000,
+  enableKeepAlive: true,
+  keepAliveInitialDelay: 0
 });
+
+const closePool = async () => {
+  try {
+    await pool.end();
+    console.log('✓ MySQL2 pool closed successfully');
+    return true;
+  } catch (error) {
+    console.error('✗ Error closing MySQL2 pool:', error.message);
+    return false;
+  }
+};
 
 module.exports = {
   sequelize,
   testConnection,
   config,
   pool,
+  closePool,
 };

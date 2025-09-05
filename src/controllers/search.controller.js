@@ -66,7 +66,8 @@ class SearchController {
       const filters = {
         page: req.query.page,
         limit: req.query.limit,
-        verified: req.query.verified
+        verified: req.query.verified,
+        engine: req.query.engine
       };
 
       const startTime = Date.now();

@@ -1,6 +1,7 @@
 const { sequelize } = require('../models');
 const cacheService = require('./cache.service');
 const { logger } = require('../middleware/errorHandler');
+const personsService = require('./persons.service');
 
 class SearchService {
   async searchWorks(query, filters = {}) {
@@ -123,8 +124,24 @@ class SearchService {
   }
 
   async searchPersons(query, filters = {}) {
-    const { page = 1, limit = 20, verified } = filters;
+    const { page = 1, limit = 20, verified, engine } = filters;
     const offset = (page - 1) * limit;
+    
+    // Use Sphinx search if engine=sphinx parameter is provided
+    if (engine === 'sphinx') {
+      try {
+        const result = await personsService.searchPersonsSphinx(query, {
+          limit: parseInt(limit),
+          offset: parseInt(offset),
+          verified
+        });
+        logger.info(`Persons Sphinx search completed: "${query}" - ${result.data.length} results`);
+        return result;
+      } catch (error) {
+        logger.error('Sphinx persons search failed, falling back to MySQL:', error);
+        // Fall through to MySQL search
+      }
+    }
     
     const cacheKey = `search:persons:${query}:${JSON.stringify(filters)}`;
     

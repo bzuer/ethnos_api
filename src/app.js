@@ -223,7 +223,7 @@ const subjectsRoutes = require('./routes/subjects');
 const bibliographyRoutes = require('./routes/bibliography');
 
 const swaggerUi = require('swagger-ui-express');
-const swaggerSpecs = require('../swagger.config');
+const swaggerSpecs = require('../config/swagger.config');
 
 app.get('/docs.json', (req, res) => {
   res.set({
@@ -371,8 +371,9 @@ const gracefulShutdown = async (signal) => {
       await sphinxHealthCheck.stopMonitoring();
       logger.info('🔍 Sphinx monitoring stopped');
 
-      const { sequelize } = require('./config/database');
+      const { sequelize, closePool } = require('./config/database');
       await sequelize.close();
+      await closePool();
       logger.info('💾 Database connections closed');
 
       const redis = require('./config/redis');
