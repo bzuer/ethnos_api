@@ -1,0 +1,12 @@
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+title	text	NO	MUL	NULL	
+subtitle	text	YES		NULL	
+abstract	text	YES		NULL	
+work_type	enum('ARTICLE','BOOK','CHAPTER','THESIS','CONFERENCE','REPORT','DATASET','OTHER')	NO	MUL	NULL	
+language	char(3)	YES	MUL	NULL	
+reference_count	int(10) unsigned	YES		0	
+created_at	timestamp	YES	MUL	current_timestamp()	
+updated_at	timestamp	YES	MUL	current_timestamp()	on update current_timestamp()
+temp_doi	varchar(255)	YES	UNI	NULL	
+title_normalized	varchar(255)	YES	MUL	NULL	STORED GENERATED

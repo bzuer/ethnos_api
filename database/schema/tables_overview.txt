@@ -1,0 +1,41 @@
+table_name	table_rows	size_mb	table_comment
+file_identifiers	1854219	253.66	
+citations	1618449	379.64	
+temp_person_merge_pairs	1451240	96.16	
+authorships	1413633	452.36	
+work_author_summary	1136052	221.33	
+works	1052723	1262.13	
+publications	923960	436.23	
+identifiers	868928	226.67	
+publication_files	864689	50.09	
+files	649450	304.80	
+sphinx_queue	646240	96.98	
+persons	549022	364.45	
+isbn_lookup	244820	24.06	
+metrics	220429	36.61	
+organizations	179510	153.84	
+temp_merge_pairs	54020	4.03	
+subjects	41845	17.63	
+work_subjects	38365	11.80	
+course_bibliography	15312	3.44	
+person_match_log	5256	0.66	
+venues	4921	1.42	
+universidades_mestras	564	0.09	
+temp_org_merge_pairs	500	0.05	
+course_instructors	473	0.08	
+courses	433	0.13	
+processing_log	387	0.14	
+publishers	316	0.09	
+programs	3	0.06	
+persons_signatures	0	0.06	
+file_locations	0	0.08	
+signatures	0	0.05	
+processing_log_archive	0	0.08	
+work_licenses	0	0.02	
+funding	0	0.08	
+v_annual_stats	NULL	NULL	VIEW
+v_collaborations	NULL	NULL	VIEW
+v_venue_ranking	NULL	NULL	VIEW
+v_works_by_signature	NULL	NULL	VIEW
+v_institution_productivity	NULL	NULL	VIEW
+v_person_production	NULL	NULL	VIEW

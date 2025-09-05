@@ -1,0 +1,13 @@
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+preferred_name	varchar(255)	NO	MUL	NULL	
+family_name	varchar(100)	YES	MUL	NULL	
+given_names	varchar(255)	YES		NULL	
+name_variations	longtext	YES		NULL	
+orcid	varchar(20)	YES	UNI	NULL	
+scopus_id	varchar(50)	YES	UNI	NULL	
+lattes_id	varchar(20)	YES		NULL	
+is_verified	tinyint(1)	YES	MUL	0	
+created_at	timestamp	YES	MUL	current_timestamp()	
+updated_at	timestamp	YES	MUL	current_timestamp()	on update current_timestamp()
+normalized_name	varchar(255)	YES	MUL	NULL	STORED GENERATED
